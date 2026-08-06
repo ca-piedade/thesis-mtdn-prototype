@@ -1,0 +1,20 @@
+Lot row 3 (article 131, true label=1, anomaly_type=consumption):
+    deviation_pct: SHAP=-6.988
+    recipe_age_days: SHAP=0.394
+
+Lot row 23 (article 278, true label=1, anomaly_type=consumption):
+    deviation_pct: SHAP=-4.740
+    recipe_age_days: SHAP=0.175
+
+Lot row 29 (article 133, true label=1, anomaly_type=both):
+    deviation_pct: SHAP=-3.403
+    recipe_age_days: SHAP=-2.979
+
+Lot row 34 (article 266, true label=0, anomaly_type=none):
+    deviation_pct: SHAP=0.597
+    recipe_age_days: SHAP=-5.480
+
+Lot row 42 (article 210, true label=0, anomaly_type=none):
+    deviation_pct: SHAP=0.552
+    recipe_age_days: SHAP=-6.989
+

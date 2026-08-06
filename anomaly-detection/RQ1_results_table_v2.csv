@@ -1,0 +1,5 @@
+model,threshold,precision,recall,f1,TP,FP,FN,TN
+Isolation Forest,contamination-based (default),0.883,0.883,0.883,151,20,20,1309
+Isolation Forest,best-F1 threshold (-0.007),0.86,0.936,0.896,160,26,11,1303
+Autoencoder (MLP),contamination-based (default),0.801,0.801,0.801,137,34,34,1295
+Autoencoder (MLP),best-F1 threshold (1.046),0.806,0.801,0.804,137,33,34,1296
