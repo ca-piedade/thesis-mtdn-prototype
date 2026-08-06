@@ -1,0 +1,16 @@
+{
+  "name": "fnb-trust-chaincode",
+  "version": "1.0.0",
+  "description": "ICDLT 2026 paper prototype - stock-lot and recipe-governance chaincode (Tables I & II)",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "fabric-chaincode-node start"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim": "^2.5.4"
+  }
+}
