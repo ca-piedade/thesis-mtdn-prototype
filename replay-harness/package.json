@@ -1,0 +1,14 @@
+{
+  "name": "fnb-trust-replay-harness",
+  "version": "1.0.0",
+  "description": "Replays events.json as real transactions against the deployed fnbtrust chaincode, measuring real latency/throughput for ICDLT 2026 paper Table IV.",
+  "main": "replay.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.9",
+    "@hyperledger/fabric-gateway": "^1.5.0"
+  }
+}
