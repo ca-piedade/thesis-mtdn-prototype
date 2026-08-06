@@ -23,7 +23,7 @@ python3 evaluate_anomaly_detection_v2.py
 ```
 Outputs `RQ1_results_table_v2.csv` and `RQ1_shap_summary_v2.txt` (included here as already-generated reference outputs).
 
-**Scope note:** validation reported in the dissertation uses synthetic data only. An attempt to validate against real operational data (HOST-vs-PHC reconciliation records) was made and is documented as a limitation and future-work item in Chapter 5 — it was not included as a result because both attempts were methodologically invalid (either circular/leaky by construction, or carrying no usable signal from a single-source feature set). See Chapter 5, Sections 5.3-5.4.
+**Scope note:** validation reported in the dissertation uses synthetic data only. An attempt to validate against real operational reconciliation records was made and is documented as a limitation and future-work item in Chapter 5 — it was not included as a result because both attempts were methodologically invalid (either circular/leaky by construction, or carrying no usable signal from a single-source feature set). See Chapter 5, Sections 5.3-5.4.
 
 ### `dlt-simulation/`
 
